@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "password-gen": {
@@ -117,8 +117,16 @@
               "devServerTarget": "password-gen:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "password-gen"
+    }
+  },
+  "defaultProject": "password-gen",
+  "cli": {
+    "analytics": "049a6d2e-cfc4-4ceb-a15a-adf8d4c76450"
+  }
 }

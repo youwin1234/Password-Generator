@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "password-generator-96563": {
+      "hosting": {
+        "password-gen": [
+          "password-generator-96563"
+        ]
+      }
+    }
+  }
+}
